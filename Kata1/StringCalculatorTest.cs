@@ -14,7 +14,7 @@ namespace xUnitTest
         [Fact]
         public void it_should_return_zero()
         {
-            Assert.Equal(result, 0);
+            Assert.Equal(0, result);
         }
     }
 
@@ -29,7 +29,7 @@ namespace xUnitTest
         [Fact]
         public void it_should_return_the_provided_number()
         {
-            Assert.Equal(result, 1);
+            Assert.Equal(1, result);
         }
     }
 
@@ -44,7 +44,7 @@ namespace xUnitTest
         [Fact]
         public void it_should_return_the_sum_of_the_two()
         {
-            Assert.Equal(result, 3);
+            Assert.Equal(3, result);
         }
     }
 
@@ -59,7 +59,7 @@ namespace xUnitTest
         [Fact]
         public void it_should_return_the_of_all_the_numbers()
         {
-            Assert.Equal(result, 7);
+            Assert.Equal(7, result);
         }
     }
 
@@ -74,7 +74,7 @@ namespace xUnitTest
         [Fact]
         public void it_should_return_the_of_all_the_numbers()
         {
-            Assert.Equal(result, 7);
+            Assert.Equal(7, result);
         }
     }
 
@@ -116,7 +116,7 @@ namespace xUnitTest
         [Fact]
         public void it_should_return_the_sum_of_all_numbers()
         {
-            Assert.Equal(result, 3);
+            Assert.Equal(3, result);
         }
     }
 
